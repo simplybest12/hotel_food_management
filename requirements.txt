@@ -1,0 +1,12 @@
+motor
+python-jose
+python-dotenv
+pydantic
+fastapi[all]
+uvicorn
+bcrypt
+passlib
+psycopg2
+pydantic-settings
+pymongo
+shortuuid

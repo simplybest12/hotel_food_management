@@ -8,8 +8,9 @@ from models.ratings import Ratings
 class Hotel(BaseModel):
     # id: str = Field(..., alias="_id") 
     name: str
+    hotel_owner: str
     address: str
-    contact_info: str
+    phone_number: str
     foods : List[Food] = []
     ratings: List[Ratings] = []
     average_ratings: float = 0

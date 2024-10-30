@@ -10,3 +10,8 @@ psycopg2
 pydantic-settings
 pymongo
 shortuuid
+twilio
+cloudinary
+sse-starlette
+apscheduler
+

@@ -6,14 +6,24 @@ password = urllib.parse.quote_plus('Deepak@12')
 class Settings(BaseSettings):
     project_name: str = "Hotel_Management_Food"
     project_version:str = "1.0.0"
-    # secret_key: str
-    # algorithm: str
-    # access_token_expire_minutes: int
+    secret_key: str
+    algorithm: str
+    access_token_expire_minutes: int
+    refresh_access_token_expire_minutes: int
+    twilio_account_sid: str
+    twilio_auth_token: str
+    twilio_phone_number: str
+    
     
     mongo_user: str
     mongo_password: str
     mongo_db: str   
     app_name:str 
+    cloud_name:str
+    api_key:str
+    cloudinary_cloud_name:str
+    cloudinary_api_key:str
+    cloudinary_api_secret:str
     
     class Config:
         env_file = ".env"
